@@ -80,8 +80,13 @@ Model composed of 20 layers and inspired by Inception V1
 
 ## Results
 
-
 <img src="https://raw.githubusercontent.com/jamesbarthelemy/images/main/p6_own_res.png" width="600">
+
+Legend
+
+1. cnn - Trained with available data only - No equalization
+2. cnn_tuned_aug_equ - Trained after fine tuning with data augmentation activated and equalization
+3. cnn_tuned_aug_noequ - Trained after fine tuning with data augmentation activated and no equalization
 
 ## Pretrained models
 
@@ -95,7 +100,9 @@ Model composed of 20 layers and inspired by Inception V1
 
 <img src="https://raw.githubusercontent.com/jamesbarthelemy/images/main/p6_result.png" width="600">
 
-The selected model has an accuracy score of 0.8197.
+<img src="https://raw.githubusercontent.com/jamesbarthelemy/images/main/p6_result2.png" width="600">
+
+The selected model has an accuracy score of 0.8197 after fine tuning.
 The overfitting can be further reduced by using data augmentation during a second iteration.
 
 [Back to table of contents](#table-of-contents)
