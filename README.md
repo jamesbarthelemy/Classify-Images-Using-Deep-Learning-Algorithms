@@ -78,6 +78,9 @@ Model composed of 20 layers and inspired by Inception V1
 
 <img src="https://raw.githubusercontent.com/jamesbarthelemy/images/main/p6_own.png" width="1200">
 
+## Results
+
+
 <img src="https://raw.githubusercontent.com/jamesbarthelemy/images/main/p6_own_res.png" width="600">
 
 ## Pretrained models
